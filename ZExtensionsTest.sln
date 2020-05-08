@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZExtensionsTest", "ZExtensionsTest.csproj", "{5AC19989-160B-4B5F-9449-5FDC6A6A09AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AC19989-160B-4B5F-9449-5FDC6A6A09AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AC19989-160B-4B5F-9449-5FDC6A6A09AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AC19989-160B-4B5F-9449-5FDC6A6A09AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AC19989-160B-4B5F-9449-5FDC6A6A09AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {486C82E8-81FA-4F0A-AF61-A331D2BFEA63}
+	EndGlobalSection
+EndGlobal
