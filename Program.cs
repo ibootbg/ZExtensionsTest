@@ -20,29 +20,6 @@ namespace ZExtensionsTest
 
                 using (var ctx = new ZExtensionsContext($"Server = {DbServer}; Database = {DbName}; Trusted_Connection = True;"))
                 {
-                    foreach (var contact in ctx.Contacts)
-                    {
-                        contact.Address = "AddressMax10AddressMax20AddressMax30AddressMax40AddressMax50";
-                    }
-
-                    var tran = ctx.Database.BeginTransaction();
-                    try
-                    {
-                        ctx.BulkSaveChanges(false);
-                        tran.Commit();
-                    }
-                    catch (Exception)
-                    {
-                        try
-                        {
-                            tran.Rollback();
-                            Console.WriteLine("Rollback works!");
-                        }
-                        catch (Exception)
-                        {
-                            Console.WriteLine("Rollback doesn't work!");
-                        }
-                    }
                 }
             }
             catch (Exception e)
